@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html>
+<head>
+    <title>New Order</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h2>Давайте оформим заказик</h2>
+    <form method='post'>
+                </br>
+                <label>Город отправления:</label><br />
+                <input name='DepartCity' required/><br />
+                </br>
+                <label>Адрес отправления:</label><br />
+                <input name='DepartAdd' required/><br />
+                </br>
+                <label>Город получателя:</label><br />
+                <input name='RecCity' required/><br />
+                </br>
+                <label>Адрес получателя:</label><br />
+                <input name='RecAdd' required/><br />
+                </br>
+                <label>Вес:</label><br />
+                <input type='number' name='Weigth' required/><br />
+                </br>
+                <label>Дата забора груза:</label>
+                <input type="date" name="Date" required/><br />
+                </br>
+                <input type='submit' value='Заказать' />
+            </form>
+            
+            </br>
+            </br>
+    <a href="/Home/OrdersList/" class="button"> Список заказов </a>
+</body>
+</html>
